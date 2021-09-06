@@ -26,5 +26,5 @@ def show_me(source: CommandSource):
 
 
 def on_load(server: ServerInterface, prev):
-	server.register_help_message('!!s-here', '广播坐标并高亮玩家')
+	server.register_help_message('!!s-here', 'Broadcast coordinates and highlight players')
 	server.register_command(Literal('!!s-here').runs(show_me))
